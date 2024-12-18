@@ -1,0 +1,240 @@
+/* product styles */
+body{
+    background-color: rgb(11, 11, 11);
+  }
+  .imgone{
+   position: absolute;
+   top: 200px;
+   border: 2px solid grey;
+   left: 25px;
+  }
+  .imgtwo{
+    position: absolute;
+    top: 350px;
+    border: 2px solid gray;
+    left: 25px;
+  
+   }
+  .imgthree{
+   position: absolute;
+   top: 600px;
+   border: 2px solid gray;
+   margin-top: 50px;
+   left: 25px;
+   }
+  .imgfour{
+   position: absolute;
+   top:500px;
+   border: 2px solid gray;
+   left: 25px;
+   }
+   #jbl{
+   margin-left: 140px;
+   margin-top:45px ;
+   height: 700px;
+   width: 700px;
+            
+  }
+   h1{
+   color: aliceblue;
+   margin-top: 150px;
+   }
+  p{
+   color: aliceblue;
+  font-size: large;
+  position: relative;
+  top: -13px;
+   }
+  .star{
+   display: flex;
+   flex-direction:row;
+   color: orangered;
+   position: relative;
+  top: -14px;
+  }
+   #svg{
+   color: white;
+   background-color: green;
+   font-size: larger;
+   position: relative;
+   left: 350px;
+   top: 60px;
+   height: 30px;
+   width: 110px;
+   border-radius: 2px;
+   border: 2px solid green;
+}
+.jbl{
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+ }
+#content{
+  position: absolute;
+  right: 50px;
+  top: 60px;
+ }
+ hr{
+  position: relative;
+  top: 20px;
+ }
+.hr{
+  position: relative;
+  top: 35px; 
+}
+       /*specifications  */
+.one{
+ color: whitesmoke;
+ background-color: red;
+ border-radius: 5px;
+ border: 2px solid red;
+ height: 35px;
+ width: 120px;
+ font-size: medium;
+ position: absolute;
+ left: 400px;
+ top: 950px;
+            
+            
+ }
+.two{ color: grey;
+    font-size: large;
+    position: absolute;
+    left:650px;
+    top: 955px;
+  }
+  .three{
+    color: grey;
+    font-size: large;
+    position: absolute;
+    left:900px;
+    top: 955px;
+   }
+  .two:hover{
+    color: whitesmoke;
+     background-color: red;
+  }
+  .three:hover{
+   color:white;
+   background-color: red;
+  }
+  .brand{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 250px;    
+    }
+   .micro{
+    position: relative;
+    left: 25px;
+    }
+   .wire{
+    position: relative;
+    left: 250px;
+   }
+   /* related products */
+   .repro{
+    color: aliceblue;
+    position: relative;
+    top: 300px;
+    left: 650px;
+    font-weight: bold;
+    font-size: larger;
+   }
+   .repro:hover{
+    color: aliceblue;
+    background-color: red;
+   }
+           
+   .jblnc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top:0px;
+             
+   }
+    #jblnc:hover{
+     transform: scale(0.9);
+   }
+   .box{
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin-top: 520px;
+    height: 500px;
+    width: 350px;
+    margin-left: 15px;
+    }
+   .star{
+    display: flex;
+    flex-direction: row;
+    color: orangered;
+    margin-top: 25px;
+    margin-left: 15px;
+    }
+   .adva{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 45px;  
+    margin-bottom: 45px;
+   } 
+   .and{
+     border: 2px ;
+     background-color: rgb(20, 19, 19);
+     height: 360px;
+     margin-top: 100px;
+    }
+    h5{
+     color: aliceblue;
+     text-align: center;
+     font-size: large;
+     font-weight: bolder;
+     position: relative;
+     top: 30px;
+   }
+   h5::selection{
+     color: aliceblue;
+     background-color: red;
+   }
+   .iconone:hover{
+     color: aliceblue;
+     background-color: red;
+       
+   }
+   .icontwo:hover{
+     color: aliceblue;
+     background-color: red;
+       
+   }
+   .iconthree:hover{
+     color: aliceblue;
+     background-color: red;
+       
+   }
+   .iconfour:hover{
+     color: aliceblue;
+     background-color: red;
+       
+   }
+   .iconfive:hover{
+     color: aliceblue;
+     background-color: red;
+    }
+   .iconsix:hover{
+     color: aliceblue;
+     background-color: red;
+       
+   }
+   .iconseven:hover{
+   color: aliceblue;
+   background-color: red;
+       
+   }
+   .iconeight:hover{
+       
+   background-color: red;
+   color: white;  
+    }
+     
+    
+    

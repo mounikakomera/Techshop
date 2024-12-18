@@ -1,0 +1,111 @@
+.form{
+    border: 2px solid grey;
+    width: 400px;
+    margin: auto;
+    margin-top: 150px;
+    height: 450px;
+    background-color: rgb(26, 25, 25);   
+
+}
+h1{
+    margin-left: 20px;
+    color: aliceblue;
+}
+.label{
+    margin-top: 20px;
+    color: aliceblue;
+    margin-left: 20px;
+    
+}
+.name{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 250px;
+    height: 25px;
+    background-color: black;
+    color: gray;
+    border: 2px solid grey;
+}   .email{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 250px;
+    height: 25px;
+    background-color: black;
+    color: gray;
+    border: 2px solid grey;
+}
+.password{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 250px;
+    height: 25px;
+    background-color: black;
+    color: gray;
+    border: 2px solid grey;
+}
+.sign{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 350px;
+    height: 25px;
+    color: aliceblue; 
+    background-color: red;
+    border: 0cap solid red;
+    border-radius: 2px;
+}  
+hr{
+    margin-top: 40px;
+
+} 
+.button{
+    margin-top: 10px;
+} 
+.Facebook{
+    background-color:blue;
+    color: aliceblue;
+    margin-left: 20px;
+    height: 28px;
+    width: 100px;
+    border-radius: 2px;
+    border: 0cap solid grey;
+}
+.Google{
+    background-color:red;
+    color: aliceblue;
+    margin-left: 20px;
+    height: 28px;
+    border-radius: 2px;
+    width: 100px;
+    border: 0cap solid grey;
+}
+
+.Twitter{
+    background-color: rgb(11, 144, 240);
+    color: aliceblue;
+    margin-left: 20px;
+    height: 28px;
+    border-radius: 2px;
+    width: 100px;
+    border: 0cap solid grey;
+}
+.login{
+    border: none;
+    border-top: 3px solid gray;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 40px;
+}
+
+body{
+background-color: rgb(29, 28, 28);
+}
+#emailErr{
+    color: red;
+    margin-left: 30px;
+    display: none;
+}
+#passwordErr{
+    color: red;
+    margin-left: 30px;
+    display: none;
+}

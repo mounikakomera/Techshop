@@ -1,0 +1,844 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+   
+   }
+   .slider{
+    margin-top: 30px;
+   }
+  .one{
+     position: absolute;
+     left: 15px;
+     top:300px;
+     color: aliceblue;
+     font-weight: 850;
+  } 
+  .two{
+     position: absolute;
+     left: 12px;
+     top:320px;
+     color: aliceblue;
+     font-weight: bold;
+     font-size: 40px;
+     
+  }
+  .three{
+    position: absolute;
+    left: 15px;
+    top:370px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 40px;
+ }
+ .four{
+   position: absolute;
+    left: 15px;
+    top:450px;
+    color: aliceblue;
+    
+ }
+ .five{
+   position: absolute;  left: 70px;
+   top:450px;
+   color: grey; 
+}
+button{
+  position: absolute;
+  top:500px ;
+}
+.six{
+  position: absolute;
+   left: 15px;
+   top:300px;
+   color: aliceblue;
+   font-weight: 850;
+}
+.seven{
+  position: absolute;
+   left: 12px;
+   top:320px;
+   color: aliceblue;
+   font-weight: bold;
+   font-size: 40px; 
+}
+.eight{
+  position: absolute;
+   left: 15px;
+   top:370px;
+   color: aliceblue;
+   font-weight: bold;
+   font-size: 40px;
+}
+.nine{
+   position: absolute;
+   left: 15px;
+   top:450px;
+   color: aliceblue;
+}
+.ten{
+  position: absolute;
+   left: 77px;
+   top:450px;
+   color: grey;
+}
+.leven{
+  position: absolute;
+   left: 15px;
+   top:300px;
+   color: aliceblue;
+   font-weight: 850;
+}
+.tweleve{
+  position: absolute;
+   left: 12px;
+   top:320px;
+   color: aliceblue;
+   font-weight: bold;
+   font-size: 40px;
+}
+.thirteen{
+  position: absolute;
+   left: 15px;
+   top:370px;
+   color: aliceblue;
+   font-weight: bold;
+   font-size: 40px;
+}
+.fourteen{
+  position: absolute;
+   left: 15px;
+   top:450px;
+   color: aliceblue;
+}
+.fifteen{
+  position: absolute;
+   left: 70px;
+   top:450px;
+   color: grey; 
+}
+.item{
+  display: flex;
+  justify-content: space-around; 
+}
+.jblone{
+  position: absolute;
+  top: 600px;
+}
+h5{
+  position: relative;
+  left: 60px;
+}
+figcaption{
+  font-size: x-large;
+  font-weight: bolder;
+  font-family: serif;
+}
+del{
+  position: relative;
+  left: 12px;
+}
+.first:hover{
+  transform: scale(1.1);
+
+}
+.second:hover{
+  transform: scale(1.1);
+
+}
+.third:hover{
+  transform: scale(1.1);
+
+}
+.fourth:hover{
+  transform: scale(1.1);
+
+}
+.fifth:hover{
+  transform: scale(1.1);
+}
+.top{
+  display: flex;
+  justify-content: space-evenly;
+  color: lightgray;
+  font-size: x-large;
+  margin-top: 130px;
+}
+.all{
+ position: absolute; 
+ top: 700px; 
+}
+.headphone:hover{
+  background-color: red;
+  color: white;
+}
+.Earbuds:hover{
+  background-color: red;
+  color: white;
+}
+.Earphones:hover{
+  background-color: red;
+  color: white;
+}
+.Neckbands:hover{
+  background-color: red;
+  color: white;
+}
+.span{
+  font-size: x-large;
+  font-weight: bold;
+  color: lightgray;
+  position: relative;
+  left: 700px;
+  top: 70px;
+  margin-top: 100px;
+}
+span:hover{
+  background-color: red;
+  color: white;
+}
+#starone{
+  position: relative;
+  top: 1500px;
+  left: 15px;
+}
+.groupstar{
+  display: flex;
+  flex-direction: row; 
+}
+.star{
+
+font-size: 15px;
+}
+.checked{
+color: orangered;
+}
+.grid{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+}
+.adva{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-top: 40px;  
+margin-bottom: 40px;
+}
+.and{
+border: 2px ;
+background-color: rgb(28, 27, 27);
+height: 350px;
+
+}
+
+h3{
+color: lightgray;
+margin-left: 600px;
+margin-top: 2px;
+position: relative;
+top: 40px;
+font-size: x-large;
+font-weight: bolder;
+
+}
+h3::selection{
+color: aliceblue;
+background-color: red;
+margin-top: 50px;
+}
+.iconone:hover{
+color: aliceblue;
+background-color: red;
+
+}
+.icontwo:hover{
+color: aliceblue;
+background-color: red;
+
+}
+.iconthree:hover{
+color: aliceblue;
+background-color: red;
+
+}
+.iconfour:hover{
+color: aliceblue;
+background-color: red;
+
+}
+.iconfive:hover{
+color: aliceblue;
+background-color: red;
+
+}
+.iconsix:hover{
+color: aliceblue;
+background-color: red;  }
+.iconseven:hover{
+  color: aliceblue;
+  background-color: red;
+
+}
+.iconeight:hover{
+  
+  background-color: red;
+  color: white;  
+}footer{
+    border: 2px black;
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+    justify-content: space-around;
+  }
+  h6{
+    color: aliceblue;
+    
+  }
+  h6:hover{
+    background-color: red;
+    color: whitesmoke;
+  }
+  p{
+    color: grey;
+  }
+  p:hover{
+     color: white;
+     background-color: red;
+  }
+  input{
+    margin-top: 15px;
+  }
+  
+  
+  #six{
+    position: relative;
+    left: 0px;
+  }
+  #seven{
+      margin: 0%;
+      float: right;
+      position: relative;
+      top: -47px;
+  }
+  #eight{
+    position: relative;
+    right: 25px;
+  }
+  #nine{
+    position: relative;
+    right: 20px;
+  }
+  #ten{
+    position: relative;
+    right: 15px;
+  }
+  #leven{
+    position: relative;
+    right: 10px;
+  }
+  .box{
+ border: 2px solid grey;
+ border-radius: 5px;
+ margin-top: 80px;
+ height: 500px;
+ width: 350px;
+ margin-left: 15px;
+  }
+ .star{
+  display: flex; flex-direction: row;
+  color: orangered;
+  margin-top: 10px;
+  margin-left: 15px;
+ }
+ #jblnc:hover{
+    transform: scale(0.9);
+ }
+ .jbl{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ }
+ .boat{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+ }
+ .boxone{
+  border: 2px solid grey;
+ border-radius: 5px;
+ margin-top: 20px;
+ height: 500px;height: 500px;
+ width: 350px;
+ margin-left: 15px;
+ }
+ .roc{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ }  
+ .boxtwo{
+  border: 2px solid grey;
+ border-radius: 5px;
+ margin-top: 20px;
+ height: 500px;
+ width: 350px;
+ margin-left: 15px;
+ }
+ .boxthree{
+  color: aliceblue;
+  text-align: center;
+  align-content: center;
+  position: relative;
+  top: 200px;
+ }
+ hr{
+  margin:0;
+ } 
+.item{ 
+ width: 90%;
+ display: flex;
+ justify-content: space-between; 
+ margin: auto;
+ overflow: hidden;
+}
+.item .first{
+ height: 100%;
+ width: 300px;
+      
+ animation-name: jbl;
+ animation-duration: 12s;
+ animation-iteration-count: infinite;
+ animation-delay: 0s;
+ position: relative;
+ left: -7%;
+ align-self: center;
+    
+ }
+.item .first h3 {
+ height: 15%;
+ width: 100%;
+ text-align: center;
+ color: grey;
+ align-content: center;
+}
+.item .first img {
+ height: 60%;
+ width: 100%;
+}
+.item .first h2 {
+ height: 20%;
+ width: 100%;
+ color: aliceblue;
+ text-align: center;
+ align-content: center;
+}
+@keyframes jbl{
+0%{
+ left:-7%;
+ height: 60%;
+            
+}
+1%{
+ left: -35%;
+ opacity: 0;
+ }
+4%{
+ left: 85%;
+ opacity: 0;
+ }
+5%{
+ opacity: 1;
+ left: 85%;
+} 
+       
+19% {
+ left: 85%;
+ opacity: 1;
+ height: 60%;
+ }
+20% {
+ left: 85%;
+ opacity: 1;
+ height: 60%;
+ }
+25%{
+ left:60%;
+ height: 80%;
+        
+ } 
+40%{
+ left: 60%;
+ height: 80%;
+}
+45%{
+ left: 40%;
+ height: 100%;
+}
+
+60%{
+ left: 40%;
+ height: 100%;
+ } 
+ 65%{
+ left: 20%;
+ height: 80%;
+}
+80%{
+ left: 20%;
+ height: 80%;
+}
+ 85%{
+ left: -7%;
+ height: 60%;
+}
+100%{
+ left: -7%;
+ height: 60%;
+}
+}  
+.item .second{
+        
+ height: 100%;
+ width: 300px;
+        
+ animation-name: boat;
+ animation-duration: 12s;
+ animation-iteration-count: infinite;
+ animation-delay: 0s;
+ position: relative;
+ left: -10%;
+ align-self: center;
+}
+ .item .second img{
+  height: 60%;
+  width: 100%;
+}
+.item .second  h3{
+  height: 15%;
+  width: 100%;
+  color: grey;
+  font-size: 25px;
+  text-align: center;
+  align-content: center;
+}
+.item .second  h2{
+  height: 25%;
+  width: 100%;
+  color: aliceblue;
+  text-align: center;
+  align-content: center;
+}
+@keyframes boat {
+0%{
+ left: -10%;
+ height: 80%;
+ }
+5%{
+ left:-30%;
+ height: 60%;
+  
+}
+20%{
+ left: -30%;
+ opacity: 1;
+ height: 60%;
+}
+21%{
+ left: 88%;
+ opacity: -1;
+}
+24%{
+ left: 60%;
+ height: 60%;
+ opacity: 1;
+}
+25%{
+ left:65%;
+ opacity: 1;
+ height: 60%;
+}
+40%{
+ left: 65%;
+ height: 60%;
+}
+45%{
+left: 41%;
+height: 80%;
+}
+60%{
+ left: 41%;
+ height: 80%;
+}
+65%{
+ left:20%;
+ height: 100%;
+}
+80%{
+ left: 20%;
+ height: 100%;
+}
+85%{
+ left: -10%;
+ height:80% ;
+}
+100%{
+ left: -10%;
+ height: 80%;
+}
+}
+.item .third{
+ height: 100%;
+ width: 300px;
+        
+ animation-name: boAt;
+ animation-duration: 12s;
+ animation-iteration-count: infinite;
+ animation-delay: 0s;
+ position: relative;
+ left: 0%;
+ align-self: center;
+  
+}
+.item .third img{
+ height: 60%;
+ width: 100%;
+ }
+.item .third h3{
+ height: 15%;
+ color: aliceblue;
+ text-align: center;
+ font-size: 25px;
+ align-content: center;
+}
+.item .third h2{
+ height: 25%;
+ color: aliceblue;
+ text-align: center;
+ align-self: center;
+}
+@keyframes boAt {
+0%{
+ left: 0%; 
+    }
+5%{
+ left: -25%;
+ height: 80%;
+} 
+20%{
+ left: -25%;
+ height: 80%;
+}
+25%{
+ left: -45%;
+ height: 60%;
+}
+40%{
+ left: -45%;
+ height: 60%;
+  opacity: 1;    
+} 
+41% {
+  left: -45%;
+  opacity: -1;
+}
+44% {
+  opacity: -1;
+}
+45%{
+ left: 48%;
+ height: 60%;
+ opacity: 1;
+}
+60%{
+ left: 48%;
+ height: 60%; 
+}
+65%{
+ left: 24%;
+ height: 80%;
+ }
+80%{
+ left: 24%;
+ height: 80%;
+  
+}
+85%{
+ left: -5%;
+ height: 100%;
+}
+100%{
+ left: -5%;
+ height: 100%;
+}
+  
+}
+       
+.item .fourth{
+ height: 100%;
+ width: 300px;
+  
+ animation-name: jbl760;
+ animation-duration: 12s;
+ animation-iteration-count: infinite;
+ animation-delay: 0s;
+ position: relative;
+ left:0%;
+ align-self: center; 
+}
+.item .fourth img{
+ height: 60%;
+ width: 100%;
+}
+.item .fourth h3{
+ height: 15% ;
+ width: 100% ;
+ font-size: 25px;
+ color: aliceblue;
+ text-align: center;
+ align-content: center;
+}
+.item .fourth h2{
+ height: 25%;
+ width: 100%;
+ color: aliceblue;
+ text-align: center;
+ align-content: center;
+}
+@keyframes jbl760 {
+ 0%{
+ left: 0%;
+ }
+5%{
+ left: -20%;
+ height: 100%;
+}
+20%{
+ left: -20%;
+ height: 100%;
+}
+25%{
+ left: -40%;
+ height: 80%;
+}
+40%{
+ left: -40%;
+ height: 80%;
+}
+45%{
+ left: -65%;
+ height: 60%;
+}
+60%{
+ left: -65%;
+ height: 60%;
+ opacity: 1;
+ }
+ 61% {
+  opacity: -1;
+ }
+ 64% {
+  opacity: -1;
+ }
+65%{
+ left: 25%;
+ height: 60%;
+  opacity: 1;
+}
+80%{
+ left: 25%;
+ height: 60%;
+}
+85%{
+ left: 0%;
+ height: 80%;
+}
+100%{
+ left: 0%;
+ height: 80%;
+}
+}
+.item .fifth{
+ height: 100%;
+ width: 300px;
+        
+ animation-name: rokerz;
+ animation-duration: 12s;
+ animation-iteration-count: infinite;
+ animation-delay: 0s;
+ position: relative;
+ left: 10%;
+ align-self: center;
+}
+.item .fifth img{
+ height: 60%;
+ width: 100%;
+}
+.item .fifth h3{
+ height: 15% ;
+ width: 100% ;
+ font-size: 25px;
+ color: aliceblue;
+ text-align: center;
+ align-content: center;
+}
+.item .fifth h2{
+ height: 25%;
+ width: 100%;
+ color: aliceblue;
+ text-align: center;
+ align-content: center;
+}
+@keyframes rokerz {
+0%{
+ left: 10%;
+}
+5%{
+ left: -20%;
+ height: 80%;
+}
+20%{
+ left: -20%;
+ height: 80%;
+}
+25%{
+ left: -40%;
+ height: 100%;
+}
+40%{
+ left: -40%;
+ height: 100%;
+}
+45%{
+ left: -60%;
+ height: 80%;
+}
+60%{
+ left: -60%;
+ height: 80%;
+}
+65%{
+ left: -85%;
+ height: 60%;
+}
+80%{
+ left: -85%;
+ height: 60%;
+ opacity: 1;
+}
+81% {
+  opacity: -1;
+}
+84% {
+  opacity: -1;
+}
+85%{
+ left: 10%;
+ height: 60%;
+ opacity: 1;
+}
+100%{
+ left: 10%;
+ height: 60%;
+}
+}
+   

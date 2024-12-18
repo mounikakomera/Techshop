@@ -1,0 +1,281 @@
+header{
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  height: 80px;
+  background-color: rgb(34, 33, 33);
+  z-index: 1000;
+  
+  
+}
+body {
+  margin-top: 80px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    padding-top: 25px;
+    margin-left: 20px;
+  }
+  .flex{
+  display: flex;
+  justify-content: flex-end;
+
+  margin-top: -45px;
+
+  }
+.header::selection{
+   color: rgb(227, 227, 227);
+   background-color: red;
+          
+}
+.search{
+  color: rgb(231, 220, 220);
+
+} 
+#search{
+  border: 2px solid lightslategray;
+  width: 60px;
+ text-align:center;
+ visibility: hidden;
+} 
+.search:hover #search{
+ visibility: visible;
+ color: aliceblue;
+ border-radius: 5px;
+}
+#tooltip{
+  color: azure;
+  padding-left: 35px;
+ 
+}
+.tooltext{
+  border: 3px solid grey;
+  margin-left: 50px;
+  width: 140px;
+  visibility: hidden;
+      
+}
+#tooltip:hover .tooltext{
+ visibility: visible;
+ color: aliceblue;
+ border-radius: 5px;
+}
+.cart{
+  color: aliceblue;
+  padding-left: 20px;
+}  
+.carttext{
+  border: 2px solid lightslategray;
+  width: 60px;
+ text-align:center;
+ visibility: hidden;
+}
+.cart:hover .carttext{
+  visibility: visible;
+  color: aliceblue;
+  border-radius: 5px;
+}
+   body{
+  background-color: black;
+  overflow-x: hidden;
+   } 
+  footer{
+    border: 2px black;
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+    justify-content: space-around;
+  }
+  h6{
+    color: aliceblue;
+    font-size: large;
+    font-weight: bold;
+
+
+  }
+  h6:hover{
+    background-color: red;
+    color: whitesmoke;
+  }
+  p{
+    color: grey;
+  }
+  p:hover{
+     color: white;
+     background-color: red;
+  }
+ 
+  input{
+    margin-top: 15px;
+  }
+  #six{
+    position: relative;
+    left: 0px;
+
+  }
+  #seven{
+      margin: 10px;
+      float: right;
+      position: relative;
+      top: -47px;
+  }
+  #eight{
+    position: relative;
+    right: 25px;
+  }
+  #nine{
+    position: relative;
+    right: 20px;
+  }
+  #ten{
+    position: relative;
+    right: 15px;
+  }
+  #leven{
+    position: relative;
+    right: 10px;
+  }
+ 
+.bottom{
+    margin-top: 25px;
+}
+.sub:hover{
+  color: aliceblue;
+  background-color: red;
+}
+.sub{
+  color: grey;
+}
+ 
+
+
+
+
+
+/*footer{
+border: 2px black;
+display: flex;
+flex-direction: row;
+margin-top: 90px;
+justify-content: space-around;
+}
+h6{
+color: aliceblue;
+
+}
+h6:hover{
+background-color: red;
+color: whitesmoke;
+}
+p{
+color: grey;
+}
+p:hover{
+ color: white;
+ background-color: red;
+}
+input{
+margin-top: 15px;
+}
+
+
+#six{
+position: relative;
+left: 0px;
+}
+#seven{
+  margin: 0%;
+  float: right;
+  position: relative;
+  top: -47px;
+}
+#eight{
+position: relative;
+right: 25px;
+}
+#nine{
+position: relative;
+right: 20px;
+}
+#ten{
+position: relative;
+right: 15px;
+}
+#leven{
+position: relative;
+right: 10px;
+}
+.box{
+border: 2px solid grey;
+border-radius: 5px;
+margin-top: 80px;
+height: 500px;
+width: 350px;
+margin-left: 15px;
+}
+.star{
+display: flex;
+flex-direction: row;
+color: orangered;
+margin-top: 10px;
+margin-left: 15px;
+}
+#jblnc:hover{
+transform: scale(0.9);
+}
+.jbl{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+.boat{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+
+}
+.boxone{
+border: 2px solid rgb(136, 130, 130);
+border-radius: 5px;
+margin-top: 20px;
+height: 500px;
+width: 350px;
+margin-left: 15px;
+}
+.roc{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}  
+.boxtwo{
+border: 2px solid grey;
+border-radius: 5px;
+margin-top: 20px;
+height: 500px;
+width: 350px;
+margin-left: 15px;
+}
+.boxthree{
+color: aliceblue;
+text-align: center;
+align-content: center;
+position: relative;
+top: 200px;
+}
+hr{
+margin:0;
+} 
+*/
+  
+ 
+ 
+ 
+ 
+
+
+  
+ 
+  
+
